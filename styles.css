@@ -1,0 +1,187 @@
+html,
+body {
+   height: 100%;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Cabin', sans-serif;
+}
+
+.cover,
+.tada {
+   height: 100vh;
+   width: 100%;
+}
+
+.cover {
+   position: absolute;
+    
+   /* background: linear-gradient(to top right, #2A5470 , #4C4177); */
+
+   /* background: linear-gradient(to bottom right,#28313B,#485461); */
+
+   /* This one  */
+   background: linear-gradient(to bottom right,#0D324D,#7F5A83); 
+  
+   /* background-color: transparent; */
+
+
+   /* background-color: rgb(43, 43, 116); */
+   /* background-color: black; */
+   /* background-color: #32174D; */
+   /* background-color: #301934; */
+   /* background-color: #4B0082; */
+   transition: height 1.1s ease;
+/* 
+   display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.heading {
+   /* positioning */
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform:translate(-112%,-62%);
+
+   color: white;
+   background: transparent;
+   /* background: #981674;
+   background: linear-gradient(to bottom right , #981674, #5d36d1,rgba(0, 174, 255, 0.438)); */
+   text-shadow: 5px 5px 5px black;
+  
+   /* background: linear-gradient(to top right, #e2dcdc, #c20d8680,green);
+   
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent; */
+
+   line-height: 1.2em;
+   font-size: 6.5em;
+   font-family: "Kalam", cursive;
+}
+
+aside{
+   position: absolute;
+   right: 5%;
+   top: 20%;
+   color: rgba(255, 255, 255, 0.849);
+   width: 39%;
+   font-size: 1.03em;
+   text-align: justify;
+
+   /* border: 1px solid white; */
+   border-radius:5px;
+   background-color: rgba(12, 12, 12, 0.911);
+   /* background-color: #1a072e; */
+
+   padding: 30px 40px;   
+   box-shadow: 2px 0 3px black;
+}
+
+aside h3{
+   font-size: 1.2em;
+   line-height: 3em;
+   margin-top: -13px;
+}
+
+code{
+   font-size: 1.1em;
+   text-align:left;
+}
+aside #syntax{
+   display: inline-block;
+   margin-top: 45px;
+   font-style: italic;
+   font-weight: bold;
+}
+aside #code{
+   display: inline-block;
+   padding: 8px 10px;
+   margin-top: 5px;
+   /* background: rgb(26, 25, 25); */
+   background-color: black;
+}
+button {
+   display: inline-block;
+   position: absolute;
+   bottom: 20%;
+   right: 22.5%;
+   z-index: 1;
+   
+   /* height width inverted */
+   transform: rotate(90deg);
+   font-size: 1.5em;
+   height: 115px;
+   width: 48px;
+   color: white;
+   background-color: rgba(12, 12, 12, 0.911);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+
+}
+.tada{
+   display: none;
+}
+
+ .tada .sidebar{
+         text-align: center;
+         color: white;
+         /* width: 0; */
+         width: 22%;
+         height: 100vh;
+         font-size: 1.5em;
+         /* background-color: rgb(51, 46, 46); */
+         background-color: rgb(39, 37, 37);
+         padding: 15px 0;
+         box-shadow: 0 0 2px rgb(39, 37, 37);
+
+         display: flex;
+         flex-flow: column wrap;
+         justify-content: space-around;
+         align-items: center;
+      }
+
+      .upper-text{
+         font-size: 1.25em;
+         font-weight: 900;
+      }
+
+      .button{
+         display: inline-block;
+         padding: 20px 30px;
+         background-color: black;
+         margin: 40px;
+         cursor: pointer;
+         border-radius: 5px;
+      }
+
+      .button:hover{
+         background-color: rgba(0, 0, 0, 0.719);
+      }
+
+      #generate{
+         padding: 30px 40px;
+      }
+
+     .color1,.color2{
+        margin: 30px;
+     }
+
+     .color2{
+        margin-top: -10px;
+     }
+
+
+     /* ---------------------------------- */
+
