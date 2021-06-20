@@ -9,6 +9,7 @@ const sidebar = document.querySelector('.sidebar');
 const generate = document.querySelector('#generate');
 const bcolor1 = document.querySelector('.color1');
 const bcolor2 = document.querySelector('.color2');
+const appButtons = document.querySelectorAll('.button');
 
 const span1 = document.querySelector('.one');
 const span2 = document.querySelector('.two');
@@ -27,9 +28,9 @@ button.addEventListener('click',function () {
    setTimeout(font3,300);
    setTimeout(section1,100);
    setTimeout(section2,200);
-   setTimeout(displayTada,800);
-   // setTimeout(sidebarWidth,600); not working
-
+   // setTimeout(displayTada,800);
+   setTimeout(sidebarWidth,600); 
+   setTimeout(buttonsDisplay,850);
 })
 
 function font1() {
@@ -47,14 +48,19 @@ function section1() {
 function section2() {
    button.style.display = 'none';
 }
-function displayTada() {
-   tada.style.display = 'block';
-}
-// function sidebarWidth() {
-//    // sidebar.style.width = 22+'%';
-//    sidebar.style.height = 100 +'vh';
+// function displayTada() {
+//    tada.style.display = 'block';
 // }
-
+function sidebarWidth() {
+   sidebar.style.width = 22+'%';
+   // sidebar.style.height = 100 +'vh';
+}
+function buttonsDisplay() {
+   appButtons[0].style.display = 'inline-block';
+   appButtons[1].style.display = 'inline-block';
+   appButtons[2].style.display = 'inline-block';
+   
+}
 
 generate.addEventListener('click',gradient);
 

@@ -129,15 +129,16 @@ button {
    cursor: pointer;
    outline: none;
 }
-.tada{
+/* .tada{
    display: none;
-}
+} */
 
  .tada .sidebar{
          text-align: center;
          color: white;
-         /* width: 0; */
-         width: 22%;
+         width: 0;
+         /* width: 22%; */
+         transition: width 0.8s ease;
          height: 100vh;
          font-size: 1.5em;
          /* background-color: rgb(51, 46, 46); */
@@ -157,7 +158,9 @@ button {
       }
 
       .button{
-         display: inline-block;
+         display: none;
+         /* display: inline-block; */
+         transition: display 1s ease;
          padding: 20px 30px;
          background-color: black;
          margin: 40px;
