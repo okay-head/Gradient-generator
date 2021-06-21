@@ -160,7 +160,14 @@ button {
       .upper,.lower{
          display: none;
       }
-      
+
+      #lower-title{
+         font-size: 1.25em;
+         font-weight: 900;
+      }
+      #sub{
+         font-size: 0.7em;
+      }
       .button{
          display: none;
          /* display: inline-block; */
@@ -182,6 +189,7 @@ button {
 
      .color1,.color2{
         margin: 30px;
+        height: 70px;
      }
 
      .color2{
