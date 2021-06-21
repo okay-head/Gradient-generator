@@ -11,6 +11,9 @@ const bcolor1 = document.querySelector('.color1');
 const bcolor2 = document.querySelector('.color2');
 const appButtons = document.querySelectorAll('.button');
 
+const upper = document.querySelector('.upper');
+const lower = document.querySelector('.lower');
+
 const span1 = document.querySelector('.one');
 const span2 = document.querySelector('.two');
 const span3 = document.querySelector('.three');
@@ -30,7 +33,9 @@ button.addEventListener('click',function () {
    setTimeout(section2,200);
    // setTimeout(displayTada,800);
    setTimeout(sidebarWidth,600); 
-   setTimeout(buttonsDisplay,850);
+   setTimeout(buttonsDisplay,800);
+
+   setTimeout(bug,1200);
 })
 
 function font1() {
@@ -59,8 +64,12 @@ function buttonsDisplay() {
    appButtons[0].style.display = 'inline-block';
    appButtons[1].style.display = 'inline-block';
    appButtons[2].style.display = 'inline-block';
-   
 }
+function bug(){
+   upper.style.display = 'block';
+   lower.style.display = 'block';
+}
+
 
 generate.addEventListener('click',gradient);
 

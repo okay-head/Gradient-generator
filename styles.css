@@ -157,6 +157,10 @@ button {
          font-weight: 900;
       }
 
+      .upper,.lower{
+         display: none;
+      }
+      
       .button{
          display: none;
          /* display: inline-block; */
