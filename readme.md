@@ -4,3 +4,5 @@ A gradient generator certainly comes handy.
 
 **Checkout my site [here](https://okay-head.github.io/Gradient-generator/) to find the perfect gradient for your project.**
 
+NOTE: Please ensure your zoom is set to 100%;
+
