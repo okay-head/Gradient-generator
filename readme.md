@@ -2,7 +2,7 @@ Gradients add a modern touch to your elements. Be it your navbar, buttons or the
 
 A gradient generator certainly comes handy.
 
-**Checkout my site __[here]__(https://okay-head.github.io/Gradient-generator/) to find the perfect gradient for your project.**
+**Checkout my site [_here_](https://okay-head.github.io/Gradient-generator/) to find the perfect gradient for your project.**
 
 (NOTE: Please ensure your zoom is set to 100%)
 
