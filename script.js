@@ -20,9 +20,8 @@ const span3 = document.querySelector('.three');
 
 button.addEventListener('click',function () {
    divCover.style.height = 0;
-
-   // to vanish parts of heading one at a time  
    
+   // to vanish parts of heading one at a time  
    //tried passing with values to font but setTimeout not working
    //creating separate functions
 
