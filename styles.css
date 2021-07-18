@@ -51,18 +51,7 @@ body {
 
    color: white;
    background: transparent;
-   /* background: #981674;
-   background: linear-gradient(to bottom right , #981674, #5d36d1,rgba(0, 174, 255, 0.438)); */
    text-shadow: 5px 5px 5px black;
-
-   /* background: linear-gradient(to top right, #e2dcdc, #c20d8680,green);
-   
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   -moz-background-clip: text;
-   -moz-text-fill-color: transparent; */
-
    line-height: 1.2em;
    font-size: 6.5em;
    font-family: "Kalam", cursive;
@@ -76,12 +65,8 @@ aside {
    width: 39%;
    font-size: 1.03em;
    text-align: justify;
-
-   /* border: 1px solid white; */
    border-radius: 5px;
    background-color: rgba(12, 12, 12, 0.911);
-   /* background-color: #1a072e; */
-
    padding: 30px 40px;
    box-shadow: 2px 0 3px black;
 }
