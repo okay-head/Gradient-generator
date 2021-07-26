@@ -90,13 +90,13 @@ function reset() {
 function gradient() {
    set();
    tada.style.background = `linear-gradient(to bottom right,${color1},${color2})`;
-   bcolor1.style.background = color1;
-   bcolor2.style.background = color2;
+   bcolor1.style.backgroundColor = color1;
+   bcolor2.style.backgroundColor = color2;
 
    // adding hover events after gradient is set
    bcolor1.addEventListener('mouseover',function () {
       bcolor1.style.fontSize = 0.8 +'em';
-      bcolor1.innerHTML = bcolor1.style.background;
+      bcolor1.innerHTML = bcolor1.style.backgroundColor;
    })
    bcolor1.addEventListener('mouseout',function () {
       bcolor1.style.fontSize = 'inherit';
@@ -105,7 +105,7 @@ function gradient() {
 
    bcolor2.addEventListener('mouseover',function () {
       bcolor2.style.fontSize = 0.8 +'em';
-      bcolor2.innerHTML = bcolor2.style.background;
+      bcolor2.innerHTML = bcolor2.style.backgroundColor;
    })
    bcolor2.addEventListener('mouseout',function () {
       bcolor2.style.fontSize = 'inherit';
