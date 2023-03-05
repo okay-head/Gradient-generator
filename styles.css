@@ -157,11 +157,6 @@ button {
    cursor: pointer;
    border-radius: 5px;
    /* prevent selection */
-   user-select: none;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -khtml-user-select: none;
-   -ms-user-select: none;
 }
 
 .button:hover {
@@ -170,6 +165,11 @@ button {
 
 #generate {
    padding: 30px 40px;
+	   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -ms-user-select: none;
 }
 
 .color1,
